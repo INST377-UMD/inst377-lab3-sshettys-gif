@@ -1,0 +1,76 @@
+/* General Body */
+body {
+    font-family: 'Arial', sans-serif; /* Custom font-family */
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1c9;
+  }
+  
+  /* Header & Footer */
+  .page-header, .page-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  /* Navigation */
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: #666;
+  }
+  
+  /* Container Layout */
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 70%; /* percentage width */
+    background-color: #98f098;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    flex: 30%; /* percentage width */
+    background-color: #7ed2f0;
+    padding: 20px;
+  }
+  
+  .sidebar:hover {
+    background-color: #5ab8d4;
+  }
+  
+  /* Form Effects */
+  #name:focus {
+    width: 250px; /* expand on focus */
+  }
+  
+  #name {
+    transition: width 0.3s ease;
+    width: 150px;
+  }
+  

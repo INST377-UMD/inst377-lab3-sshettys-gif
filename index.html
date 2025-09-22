@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 3 - Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="page-header">
+    <h1>Lab 3 - Rock Paper Scissors</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rules.html">Rules</a></li>
+      <li><a href="results.html">Results</a></li>
+    </ul>
+  </nav>
+
+  <!-- Body Section -->
+  <div class="container">
+    <!-- Main Content -->
+    <main class="main-content">
+      <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="choice">Please choose one of the following:</label>
+        <select id="choice" name="choice">
+          <option value="rock">Rock</option>
+          <option value="paper">Paper</option>
+          <option value="scissors">Scissors</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Rules</h2>
+      <p>You must choose Rock, Paper, or Scissors.</p>
+      <p>The Combos are as follows:</p>
+      <ul>
+        <li>Rock beats Scissors</li>
+        <li>Scissors beats Paper</li>
+        <li>Paper beats Rock</li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <p>This is a footer, maybe I should make it interesting, but it is pretty boring.</p>
+  </footer>
+
+</body>
+</html>
